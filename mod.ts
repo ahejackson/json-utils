@@ -59,7 +59,7 @@
  *
  * ### Canonicalization
  *
- * `{@linkcode canonicalize}(value: JsonLikeValue, compareFn?: ((a: string, b: string) => number) | undefined): JsonValue`
+ * `canonicalize(value: JsonLikeValue, compareFn?: ((a: string, b: string) => number) | undefined): JsonValue`
  *
  * - Creates a deep copy of the input, converting it to a strict `JsonValue` by
  *   sorting object keys alphabetically (by default) and handling `undefined`
